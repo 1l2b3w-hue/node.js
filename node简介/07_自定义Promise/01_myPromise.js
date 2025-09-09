@@ -43,7 +43,7 @@ class MyPromise {
 const mypromise = new MyPromise((resolve,reject) => {
     // console.log(123);
     resolve("孙悟空");
-    resolve("猪八戒");//应该不能重复修改 ，通过创建变量来记录Promise状态，实现只能修改一次
+    // resolve("猪八戒");//应该不能重复修改 ，通过创建变量来记录Promise状态，实现只能修改一次
 } );
 console.log(mypromise);
 mypromise.then((result) => {
