@@ -39,7 +39,9 @@ class mypromise {
             };
         })
 
-    }
+    };
+    
+    
     #reject() {
 
     };
